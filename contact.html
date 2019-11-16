@@ -1,0 +1,59 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>SeasideScans</title>
+  <meta name="description" content="SeasideScans">
+  <meta name="viewport" content= "width=device-width, initial-scale=1.0, minimum-scale=1">
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+	<div class="pagecontainer">
+		<header>
+			<nav>
+				<a class="logo" href="./index.html"><img class="logo" src="img/logo.svg" alt="SeasideScans logo"></a>
+				<ul class="nav-links">
+					<li><a href="./ongoing.html">Ongoing</a></li>
+					<li><a href="./completed.html">Completed</a></li>
+					<li><a href="./faq.html">FAQ</a></li>
+					<li><a href="./recruitment.html">Recruitment</a></li>
+					<li><a href="./contact.html">Contact us</a></li>
+				</ul>
+					<div class="burger">
+					<div class="line1"></div>
+					<div class="line2"></div>
+					<div class="line3"></div>
+				</div>
+			</nav>
+			<div class="title-container">
+				<h1 class="title">Contact us</h1>
+			</div>
+		</header>
+		<main>
+			<div class="main-content">	
+				<p class="normal-paragraph">Please fill out this form if you'd like to contact us privately. We're glad to receive any questions, comments, recommendations or concerns. We'll try to reply as soon as possible. If you're interested in joining us, please don't forget to specify which position you'd like. You are also invited to join our <strong><a href="#">Discord Server</a></strong> for a fastest exchange!</p>
+				<form action="#" method="POST">
+					<input type="text" name="name" placeholder="Name*" required>
+					<input type="email" name="email" placeholder="Email*" required>
+					<select name="topic" id="topic" required>
+						<option value=""disabled selected hidden>Message topic*</option>
+						<option value="question">Question</option>
+						<option value="recruitment">Recruitment</option>
+						<option value="recommendation">Recommendation</option>
+						<option value="other">Other</option>
+					</select>
+					<textarea name="message" rows="10" placeholder="Write your message here*" required minlength="20"></textarea>
+					<div class="button-container">
+						<input class="button" type="submit" value="Submit">
+					</div>
+				</form>
+			</div>
+		</main>
+		<footer>
+			<p>SeasideScans 2019 - <a href="https://github.com/lu-bru/">☆</a></p>
+		</footer>
+	</div>
+	<script src="js/script.js"></script>
+</body>
+</html>
